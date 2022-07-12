@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  color: white;
+  }
+.sidebar {
+  font-size: 20px;
+  color: white;
+  display: block;
+  float: left;
+  border-style: outset;
+  background-color: purple;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding-right: 5px;
+}
+
+.main {
+  position: fixed;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.image {
+  margin-left: 257px;
+  position: relative;
+  left: 200px;
+  border-style: outset;
+  margin-right: 5%;
+}
+
+.college {
+left: 200px;
+display: inline;
+position: relative;
+}
+
+.Skills {
+  left: 200px;
+  display: inline;
+}
+
+@media only screen and (max-width: 700px) {
+  .sidebar {
+    background-color: lightblue;
+  }
+  .college {
+    font-size: 11px;
+    left: 100px;
+    top: 200px;
+  }
+  .skills {
+    font-size: 11px;
+    left: 100px;
+  }
+  .image {
+    margin-left: 10px;
+    position: fixed;
+
+  }
+
+}
